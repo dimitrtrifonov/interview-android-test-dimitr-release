@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mobgen Test Project</string>
+    <string name="car_example_title">Car title</string>
+    <string name="car_example_date">6 Feb 2012 10:40</string>
+    <string name="car_picture_description">Car picture</string>
+
+</resources>
