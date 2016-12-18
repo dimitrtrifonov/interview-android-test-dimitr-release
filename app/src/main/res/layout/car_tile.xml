@@ -7,11 +7,12 @@
 
     <ImageView
         android:id="@+id/imageHolder"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:contentDescription="@string/car_picture_description"
+        android:scaleType="fitXY"
         android:src="@drawable/ic_launcher" />
 
     <TextView
@@ -30,4 +31,11 @@
         android:layout_toRightOf="@id/imageHolder"
         android:text="@string/car_example_date" />
 
+    <TextView
+        android:id="@+id/ownerHolder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleHolder"
+        android:layout_toRightOf="@id/imageHolder"
+        android:text="@string/car_example_owner" />
 </RelativeLayout>
